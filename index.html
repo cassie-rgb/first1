@@ -4,73 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section>
     <nav>
-        <img src=".assets/FES.png" alt="FES Logo" width="100" height="100">
-  <ul>
-   <li><a href="#about">about</a></li>
-   <li><a href="#discord">Discord</li>
-    <li><a href="#contact">contact</a></li>
-   </ul>
+     <img src=".assets/FES.png" class="Logo" alt="FES Logo" width="100" height="100">
+     <ul>
+      <li><a href="#About">about</a></li>
+      <li><a href="#Discord">Discord</li>
+      <li><a href="#Contact">contact</a></li>
+     </ul>
 </nav>
-<header>
-    <div>
-    <h1>Best place to learn Frontend</h1>
-    <p>Go from being an absolute beginner to pro with simplified process</p>
-<button>Get Started</button>
-</div>
-<figuare>
-    <img src=".assets/laptop.png" alt="Home page image">
-    </figuare>
-   </header>
-  </section>
-<main>
-    <section id="about">
-
+  <header>
+      <div class=""row">
         <div>
-            <h2>About Us</h2>
-            <p>Frontend Simplified is a community of developers who are passionate about frontend development. We provide resources, tutorials, and a supportive community to help you learn and grow as a frontend developer.</p>
+           <h1>Best place to learn Frontend</h1>
+           <p class="subheader">Go from being an absolute beginner
+             to pro with simplified process</p>
+            <button>Get Started</button>
         </div>
-        <div>
-            <h2>Our Mission</h2>
+         <figuare>
+           <img src=".assets/laptop.png" alt="Home page image">
+         </figuare>
+        </div>
+    </header>
+    </section>
+     <main>
+      <section id="about">
+       <h2>About Us</h2>
+    <div class="row">
+            <div class="section_description">
+            <div class="section__discription--wrapper"
+            <p class="section_description--para">
+                Frontend Simplified is a community of developers who are passionate about frontend development. We provide resources, tutorials, and a supportive community to help you learn and grow as a frontend developer.
+            </p>
+             <p class="section_description--para"> 
+                Whether you're a complete beginner or an experienced developer looking to improve your skills, Frontend Simplified has something for you.
+            </p>
+        </div>
+        <figure class="about__img--wrapper"> 
+             <img src=".assets/about.jpg" alt="About us image">
+        </figure>
+           <h2>Our Mission</h2>
             <p>Our mission is to make frontend development accessible to everyone. We believe that with the right resources and support, anyone can become a skilled frontend developer.</p>
             <p> Frontend simplified teaches absolute beinners how to develop skills they can use to become succesful in the development industry. With our extinsive knowlage and learning structure, combined with your dedication. You can be developers within just a few short months!</p> 
-       <img src=".assets/about.png" alt="About us image">
-        </div>
-    </section>
-    <section id="discord">
+           <img src=".assets/about.png" alt="About us image">
+          </div>
+    </div>
+    </section> 
+
+
+ <section id="discord">
+    <h2>Discord</h2>
+    <div class="section_description"
         <figure>
-            <div>
-                <h2>Discord Community</h2>
-                <p>Join our Discord community to connect with other frontend developers, ask questions, share your projects, and get feedback.</p>  
             <img src=".assets/discord.png" alt="Discord community image">
-            </figure>
-        <button>Join Now</button>
+        </figure>   
+        <div class="section__description--wrapper">
+            <p class="section_description--para">leorm ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            </p>
+            <p class="section_description--para">leorm ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>           
+        </div>
+    </div>
     </section>
+   
     <section id="contact">
         <h2>Contact Us</h2>
-        <form action="#" method="post">
+        <form action="#">
             <span>Email</span>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
+            <input type="placeholder" placeholder="jane@example.com" required>
+            <span for="message">Message:</span>
+            <textarea type="tex" placeholder="Cool Website, lets get connected"></textarea>
+            <button type="submit">Contact Us</button>
         </form>
     </section>
+
 </main>
+
 <footer>
-    <img src="./assets/Fes.svg" alt="">
-    <div>
-        <a href="#about">About</a>
-        <a href="#about">discord</a>    
-        <a href="#about">Contact</a> 
-        <a href="#about">courses</a>
+    <img class="footer__logo"scr="./assets/FES.png" alt="FES Logo" width="100" height="100">
+    <div class="footer__links">
+        <a class="footer__links" href="#about">About</a>
+        <a class="footer__links" href="#discord">discord</a>    
+        <a class="footer__links" href="#contact">Contact</a> 
     </div>
     <p>Copyright Frontend Simplified</p>
 </footer>
 </body>
-
 </html>
